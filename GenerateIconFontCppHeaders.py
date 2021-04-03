@@ -543,9 +543,9 @@ class LanguageGolang( Language ):
                                      ttf_files = ', '.join( ttf_files ),
                                      font_name = cls.intermediate.get( 'font_name' ).replace( ' ', '' )
                                      )
-        tmpl_prelude_define_file_name = '\tFontIconFileName = "{file_name_ttf}"\n'
+        tmpl_prelude_define_file_name = '\tFontIconFileName{font_abbr} = "{file_name_ttf}"\n'
         for ttf in cls.intermediate.get( 'ttfs' ):
-            result += tmpl_prelude_define_file_name.format( file_name_ttf = ttf[ 1 ])
+            result += tmpl_prelude_define_file_name.format( font_abbr = ttf[ 0 ], file_name_ttf = ttf[ 1 ])
         return result + '\n'
 
     @classmethod

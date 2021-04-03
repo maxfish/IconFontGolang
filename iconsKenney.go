@@ -4,7 +4,7 @@
 package iconfonts
 
 const (
-	FontIconFileName = "kenney-icon-font.ttf"
+	FontIconFileNameKI = "kenney-icon-font.ttf"
 
 	IconMin int = 0xe900
 	IconMax int = 0xe9e3

@@ -4,7 +4,7 @@
 package iconfonts
 
 const (
-	FontIconFileName = "fa-brands-400.ttf"
+	FontIconFileNameFAB = "fa-brands-400.ttf"
 
 	IconMin int = 0xe007
 	IconMax int = 0xf8e8

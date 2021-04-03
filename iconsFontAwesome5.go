@@ -4,8 +4,8 @@
 package iconfonts
 
 const (
-	FontIconFileName = "fa-regular-400.ttf"
-	FontIconFileName = "fa-solid-900.ttf"
+	FontIconFileNameFAR = "fa-regular-400.ttf"
+	FontIconFileNameFAS = "fa-solid-900.ttf"
 
 	IconMin int = 0xe005
 	IconMax int = 0xf8ff

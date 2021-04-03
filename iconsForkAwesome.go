@@ -4,7 +4,7 @@
 package iconfonts
 
 const (
-	FontIconFileName = "forkawesome-webfont.ttf"
+	FontIconFileNameFK = "forkawesome-webfont.ttf"
 
 	IconMin int = 0xf000
 	IconMax int = 0xf35f
